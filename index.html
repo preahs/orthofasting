@@ -10,10 +10,15 @@
 <body>
     <header class="site-header">
     <nav class="nav-bar">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="learn.html">Learning</a></li>
+        <li><a href="learning.html">Learning</a></li>
         <li><a href="almsgiving.html">Almsgiving</a></li>
         <li><a href="praying.html">Praying</a></li>
         <li><a href="about.html">About</a></li>
@@ -25,8 +30,19 @@
     <h2>Simple recipes for every kind of fasting period</h2>
     <p>This website focuses on recipes for every fasting period that follow both the letter and the spirit of the law. Rules vary across jurisdictions and parishes, so I have tried to include extensive tagging and a robust search system so you can easily filter recipe types.</p>
 
-    <p>If you are not an Orthodox Christian, feel free to look at the <a href="learn.html">Learning</a> section to learn more about Orthodoxy and what fasting consists of within the church.</p>
+    <p>If you are not an Orthodox Christian, feel free to look at the <a href="learning.html">Learning</a> section to learn more about Orthodoxy and what fasting consists of within the church.</p>
 
-    <h3>Random Recipe Of The Day</h3>
+    <div class="random-recipe" id="random-recipe">
+        <h3>Random Recipe</h3>
+        <div id="recipe-card">
+            <img id="recipe-image" src="" alt="Recipe image" style="display:none;">
+            <h4 id="recipe-title"></h4>
+            <p id="recipe-description"></p>
+            <div id="recipe-tags"></div>
+            <a id="recipe-link" href="#" target="_blank">View Recipe</a>
+        </div>
+        <button id="new-recipe-btn">Pick Another Recipe</button>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>

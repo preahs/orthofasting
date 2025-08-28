@@ -9,18 +9,158 @@
 </head>
 <body>
     <header class="site-header">
-    <nav class="nav-bar">
-        <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="learn.html">Learning</a></li>
-        <li><a href="almsgiving.html">Almsgiving</a></li>
-        <li><a href="praying.html">Praying</a></li>
-        <li><a href="about.html">About</a></li>
-        </ul>
-    </nav>
+        <nav class="nav-bar">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="learning.html">Learning</a></li>
+                <li><a href="almsgiving.html">Almsgiving</a></li>
+                <li><a href="praying.html">Praying</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <main>
+        <h1>Recipes</h1>
+        <h2>Simple fasting and vegan-friendly meals</h2>
 
+        <!-- Search bar -->
+        <input type="text" id="search-input" placeholder="Search recipes..." style="max-width: 500px; width: 100%; padding: 0.5rem; margin: 1rem auto; display: block; border-radius: 8px; border: 1px solid #ccc;">
+
+        <div id="filter-buttons" style="text-align: center; margin-bottom: 2rem;"></div>
+
+        <!-- Recipe grid -->
+        <section class="recipe-grid" id="recipe-grid"></section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <!-- Recipes JSON handling and filtering -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const grid = document.getElementById('recipe-grid');
+            const searchInput = document.getElementById('search-input');
+            const filterContainer = document.getElementById('filter-buttons');
+            let recipesData = [];
+            let allTags = new Set();
+            let activeTags = new Set(); // track selected tags
+
+            // Load recipes JSON
+            fetch('recipes.json')
+                .then(res => res.json())
+                .then(data => {
+                    recipesData = data;
+
+                    // Collect all unique tags
+                    recipesData.forEach(r => {
+                        if(r.tags) r.tags.forEach(tag => allTags.add(tag));
+                    });
+
+                    renderFilterButtons(Array.from(allTags).sort());
+                    renderRecipes(recipesData);
+                });
+
+            // Render recipe cards
+            function renderRecipes(recipes) {
+                grid.innerHTML = '';
+                recipes.forEach(r => {
+                    const card = document.createElement('article');
+                    card.classList.add('recipe-card');
+
+                    card.innerHTML = `
+                        ${r.image ? `<img src="${r.image}" alt="${r.title} image">` : ''}
+                        <h3>${r.title}</h3>
+                        <p>${r.description}</p>
+                        <div class="recipe-tags">
+                            ${r.tags && r.tags.length > 0 ? r.tags.map(tag => `<span class="tag">${tag}</span>`).join('') : ''}
+                        </div>
+                        <a href="${r.link}">View Recipe</a>
+                    `;
+                    grid.appendChild(card);
+                });
+            }
+
+            // Render dynamic filter buttons
+            function renderFilterButtons(tags) {
+                filterContainer.innerHTML = '';
+
+                // "Clear Filters" button
+                const clearBtn = document.createElement('button');
+                clearBtn.textContent = 'Clear Filters';
+                clearBtn.classList.add('clear-filters');
+                filterContainer.appendChild(clearBtn);
+
+                clearBtn.addEventListener('click', () => {
+                    activeTags.clear();
+                    updateFilterUI();
+                    applyFilters();
+                });
+
+                // Tag buttons
+                tags.forEach(tag => {
+                    const btn = document.createElement('button');
+                    btn.textContent = tag;
+                    btn.setAttribute('data-tag', tag);
+                    filterContainer.appendChild(btn);
+
+                    btn.addEventListener('click', () => {
+                        if (activeTags.has(tag)) {
+                            activeTags.delete(tag);
+                        } else {
+                            activeTags.add(tag);
+                        }
+                        updateFilterUI();
+                        applyFilters();
+                    });
+                });
+            }
+
+            // Update button active states
+            function updateFilterUI() {
+                const buttons = filterContainer.querySelectorAll('button[data-tag]');
+                buttons.forEach(btn => {
+                    const tag = btn.getAttribute('data-tag');
+                    if (activeTags.has(tag)) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
+
+            // Apply filters (tags + search)
+            function applyFilters() {
+                const query = searchInput.value.toLowerCase();
+                let filtered = recipesData;
+
+                // Tag filtering
+                if (activeTags.size > 0) {
+                    filtered = filtered.filter(r => {
+                        if (!r.tags) return false;
+                        return [...activeTags].every(tag => r.tags.includes(tag));
+                    });
+                }
+
+                // Search filtering
+                if (query) {
+                    filtered = filtered.filter(r =>
+                        r.title.toLowerCase().includes(query) ||
+                        r.description.toLowerCase().includes(query)
+                    );
+                }
+
+                renderRecipes(filtered);
+            }
+
+            // Search input event
+            searchInput.addEventListener('input', applyFilters);
+        });
+    </script>
 </body>
 </html>

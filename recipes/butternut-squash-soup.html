@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../styles.css"/>
+  <link rel="icon" type="image/png" href="../assets/img/favicons/favicon.ico"/>
+  <title>Loading...</title>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-bar">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../recipes.html">Recipes</a></li>
+        <li><a href="../learning.html">Learning</a></li>
+        <li><a href="../almsgiving.html">Almsgiving</a></li>
+        <li><a href="../praying.html">Praying</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="recipe-content">
+    <!-- Recipe content will be dynamically inserted here -->
+  </main>
+
+  <script src="../scripts.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const content = document.getElementById("recipe-content");
+
+      // Extract the recipe slug from the URL
+      const pathParts = window.location.pathname.split("/");
+      const fileName = pathParts[pathParts.length - 1];
+      const slug = fileName.replace(".html", ""); // e.g., butternut-squash-soup
+
+      fetch("../recipes.json")
+        .then(res => res.json())
+        .then(recipes => {
+          const recipe = recipes.find(r => r.link.endsWith(slug + ".html"));
+          if(!recipe) {
+            content.innerHTML = "<p>Recipe not found.</p>";
+            return;
+          }
+
+          // Set page title
+          document.title = recipe.title + " - Ortho Fasting";
+
+          // Render recipe dynamically
+          content.innerHTML = `
+            <h1>${recipe.title}</h1>
+            <h2>${recipe.description}</h2>
+
+            <section class="recipe-hero" style="text-align:center;">
+              <img src="../${recipe.image}" alt="${recipe.title}" style="max-width:600px; border-radius:12px; margin:1rem auto;">
+              <div id="recipe-tags">
+                ${recipe.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}
+              </div>
+            </section>
+
+            <section class="recipe-meta" style="max-width:600px; margin:1rem auto; display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem;">
+              <div><strong>Date Updated:</strong> ${recipe.date}</div>
+              <div><strong>Total Time:</strong> ${recipe.totalTime || "N/A"}</div>
+              <div><strong>Servings:</strong> ${recipe.servings}</div>
+            </section>
+
+            <section class="recipe-equipment">
+              <h3>Equipment</h3>
+              <ul>
+                ${recipe.equipment.map(eq => `<li>${eq}</li>`).join("")}
+              </ul>
+            </section>
+
+            <section>
+              <h3>Ingredients</h3>
+              <ul>
+                ${recipe.ingredients.map(i => `<li>${i}</li>`).join("")}
+              </ul>
+            </section>
+
+            <section>
+              <h3>Instructions</h3>
+              <ol>
+                ${recipe.instructions.map(i => `<li>${i}</li>`).join("")}
+              </ol>
+            </section>
+          `;
+        })
+        .catch(err => {
+          content.innerHTML = "<p>Error loading recipe.</p>";
+          console.error(err);
+        });
+    });
+  </script>
+</body>
+</html>

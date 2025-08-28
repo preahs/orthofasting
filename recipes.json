@@ -1,0 +1,109 @@
+[
+    {
+        "title": "Butternut Squash Soup",
+        "description": "This butternut squash soup is the ultimate fall comfort food. Store it in the fridge for up to 4 days, or freeze it for up to a few months.",
+        "link": "recipes/butternut-squash-soup.html",
+        "image": "assets/img/recipes/butternut-squash-soup.jpg",
+        "tags": ["vegan", "dinner", "soup", "fall"],
+        "totalTime": "45 mins",
+        "servings": "6",
+        "date": "2025-10-10",
+        "equipment": [
+        "Large pot",
+        "Blender",
+        "Knife and cutting board"
+        ],
+        "ingredients": [
+            "1 large yellow onion, chopped",
+            "2 tablespoons oil (I use a coconut-avocado oil instead of olive)",
+            "1/2 teaspoon sea salt",
+            "1 (3-pound) butternut squash, peeled, seeded, and cubed",
+            "3 garlic cloves, chopped",
+            "1 tablespoon chopped fresh sage",
+            "1/2 tablespoon minced fresh rosemary",
+            "1 teaspoon grated fresh ginger",
+            "3 to 4 cups vegetable broth",
+            "Freshly ground black pepper",
+            "Chopped parsley",
+            "Toasted pumpkin seeds",
+            "Crusty bread"
+        ],
+        "instructions": [
+            "Heat the oil in a large pot over medium heat. Add the onion, salt, and several grinds of fresh pepper and sauté until soft, 5 to 8 minutes. Add the squash and cook until it begins to soften, stirring occasionally, for 8 to 10 minutes.",
+            "Add the garlic, sage, rosemary, and ginger. Stir and cook 30 seconds to 1 minute, until fragrant, then add 3 cups of the broth. Bring to a boil, cover, and reduce heat to a simmer. Cook until the squash is tender, 20 to 30 minutes.",
+            "Let cool slightly and pour the soup into a blender, working in batches if necessary, and blend until smooth. If your soup is too thick, add up to 1 cup more broth and blend. Season to taste and serve with parsley, pumpkin seeds, and crusty bread."
+        ]
+    },
+    {
+        "title": "Calamari with rice",
+        "description": "A one skillet meal using calamari and simply seasoned rice.",
+        "link": "recipes/calamari-rice.html",
+        "image": "assets/img/recipes/calamari-rice.webp",
+        "tags": ["dinner", "seafood"],
+        "totalTime": "45 mins",
+        "servings": "4",
+        "date": "2025-10-10",
+        "equipment": [
+        "Large skillet with lid",
+        "Spatula",
+        "Knife and cutting board"
+        ],
+        "ingredients": [
+            "400 grams calamari rings, fresh or frozen",
+            "1/2 teaspoon salt",
+            "1/2 teaspoon pepper",
+            "1/4 cup oil (I use a coconut-avocado oil instead of olive)",
+            "1 tablespoon olive oil",
+            "1 medium onion, chopped",
+            "3 cloves garlic, finely chopped",
+            "1 teaspoon dry oregano",
+            "1 cup long grain rice",
+            "1 cup tomato sauce",
+            "1 1/2 - 2 cup water",
+            "1/4 cup chopped fresh parley or basil",
+            "1 lemon"
+        ],
+        "instructions": [
+            "Rinse your rice and place in a bowl and cover with water.  Set aside.",
+            "Rinse and drain the calamari well, then season with salt and pepper.",
+            "Heat the 1/4 cup olive oil in a large skillet and fry the calamari over medium-high heat until cooked through. This will take approximately 3 minutes.  With a slotted spoon or spatula remove the calamari from the frying pan and set aside in a bowl.  You will notice that there is some liquid in the frying pan which has been released by the calamari.   Pour all of this liquid into a measuring cup and set aside.",
+            "Heat 1 tablespoon of olive oil in the same frying pan and add the chopped onion, garlic and dry oregano.  Cook over medium heat, stirring constantly, for 3 - 5 minutes.",
+            "Drain your rice and add it to the frying pan.  Cook for a few minutes until opaque.  Meanwhile, take the reserved liquid which you saved after frying the calamari and measure it out.  Then, add enough water to reach 2 cups.  Pour this into the frying pan with the rice and then add the tomato sauce. Stir well.",
+            "Cover the frying pan and cook over low heat for approximately 15 - 20 minutes.  Check on your rice every 5 minutes to be sure that there is still enough liquid in the pan. If it appears too dry simply add more water, 1/4 cup at a time.",
+            "After 15 - 20 minutes check the rice for doneness.  When the rice is cooked, add the calamari and parsley, or basil to the pan; stir well.  Cook, covered, for an additional 3 - 5 minutes so that the calamari is heated through.",
+            "Before serving, add the juice of 1/2 lemon to the pan. Stir to combine."
+        ]
+    },
+    {
+    "title": "Chickpea Wraps",
+    "description": "Quick and easy chickpea wraps full of protein and flavor.",
+    "link": "recipes/chickpea-wraps.html",
+    "image": "assets/img/recipes/chickpea-wraps.jpeg",
+    "tags": ["vegan", "lunch", "quick"],
+    "totalTime": "20 mins",
+    "servings": "6 wraps",
+    "date": "2025-10-10",
+    "equipment": [
+    "Medium-sized bowl",
+    "Knife and cutting board"
+    ],
+    "ingredients": [
+        "19 ounces canned chickpeas",
+        "1/3 cup lemon juice, freshly squeezed",
+        "1 tablespoon tahini",
+        "1/3 cup chopped parsley",
+        "2 cups baby spinach",
+        "1 white onion, sliced into slivers",
+        "1 cucumber, sliced into rounds",
+        "6 flour tortillas"
+    ],
+    "instructions": [
+        "Drain your chickpeas and rinse them under cold running water. Transfer the chickpeas to a medium-sized bowl and add the lemon juice.",
+        "With a fork, the back of a spoon, or a potato masher, begin mashing the chickpeas. Mash them to your desired texture.",
+        "Stir in the tahini and then the chopped parsley. Set aside.",
+        "To assemble your wraps place approximately 1/3 cup of the chickpea mixture on your tortilla and spread it carefully to cover the surface evenly.",
+        "On one end lay out several cucumber slices, and top with strips of white onion. Top with approximately 1/3 cup of spinach leaves.",
+        "Roll your wrap and cut each wrap in half to serve."
+    ]
+    }
+]
