@@ -90,6 +90,13 @@
                 ${recipe.instructions.map(i => `<li>${i}</li>`).join("")}
               </ol>
             </section>
+
+            <hr>
+            
+            ${recipe.credit ? `
+            <section class="recipe-credit" style="margin-top:2rem; font-style:italic; text-align:center;">
+                <p>${recipe.credit}</p>
+            </section>` : ""}
           `;
         })
         .catch(err => {

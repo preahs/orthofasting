@@ -4,7 +4,7 @@
         "description": "This butternut squash soup is the ultimate fall comfort food. Store it in the fridge for up to 4 days, or freeze it for up to a few months.",
         "link": "recipes/butternut-squash-soup.html",
         "image": "assets/img/recipes/butternut-squash-soup.jpg",
-        "tags": ["vegan", "dinner", "soup", "fall"],
+        "tags": ["vegan", "dinner", "soup", "fall", "nut-free", "gluten-free"],
         "totalTime": "45 mins",
         "servings": "6",
         "date": "2025-10-10",
@@ -32,14 +32,15 @@
             "Heat the oil in a large pot over medium heat. Add the onion, salt, and several grinds of fresh pepper and sauté until soft, 5 to 8 minutes. Add the squash and cook until it begins to soften, stirring occasionally, for 8 to 10 minutes.",
             "Add the garlic, sage, rosemary, and ginger. Stir and cook 30 seconds to 1 minute, until fragrant, then add 3 cups of the broth. Bring to a boil, cover, and reduce heat to a simmer. Cook until the squash is tender, 20 to 30 minutes.",
             "Let cool slightly and pour the soup into a blender, working in batches if necessary, and blend until smooth. If your soup is too thick, add up to 1 cup more broth and blend. Season to taste and serve with parsley, pumpkin seeds, and crusty bread."
-        ]
+        ],
+        "credit": "Want more details, pictures, similar recipes, and possibly reviews and comments? Support the original inspiration! Adapted from <a href='https://www.loveandlemons.com/butternut-squash-soup/'>Love & Lemon's Butternut Squash Soup.</a>"
     },
     {
         "title": "Calamari with rice",
         "description": "A one skillet meal using calamari and simply seasoned rice.",
         "link": "recipes/calamari-rice.html",
         "image": "assets/img/recipes/calamari-rice.webp",
-        "tags": ["dinner", "seafood"],
+        "tags": ["dinner", "seafood", "nut-free", "gluten-free"],
         "totalTime": "45 mins",
         "servings": "4",
         "date": "2025-10-10",
@@ -72,38 +73,209 @@
             "Cover the frying pan and cook over low heat for approximately 15 - 20 minutes.  Check on your rice every 5 minutes to be sure that there is still enough liquid in the pan. If it appears too dry simply add more water, 1/4 cup at a time.",
             "After 15 - 20 minutes check the rice for doneness.  When the rice is cooked, add the calamari and parsley, or basil to the pan; stir well.  Cook, covered, for an additional 3 - 5 minutes so that the calamari is heated through.",
             "Before serving, add the juice of 1/2 lemon to the pan. Stir to combine."
-        ]
+        ],
+        "credit": "Want more details, pictures, similar recipes, and possibly reviews and comments? Support the original inspiration! Adapted from <a href='https://miakouppa.com/calamari-and-rice'>Mia Kouppa's Calamari and rice.</a>"
     },
     {
-    "title": "Chickpea Wraps",
-    "description": "Quick and easy chickpea wraps full of protein and flavor.",
-    "link": "recipes/chickpea-wraps.html",
-    "image": "assets/img/recipes/chickpea-wraps.jpeg",
-    "tags": ["vegan", "lunch", "quick"],
-    "totalTime": "20 mins",
-    "servings": "6 wraps",
-    "date": "2025-10-10",
-    "equipment": [
-    "Medium-sized bowl",
-    "Knife and cutting board"
-    ],
-    "ingredients": [
-        "19 ounces canned chickpeas",
-        "1/3 cup lemon juice, freshly squeezed",
-        "1 tablespoon tahini",
-        "1/3 cup chopped parsley",
-        "2 cups baby spinach",
-        "1 white onion, sliced into slivers",
-        "1 cucumber, sliced into rounds",
-        "6 flour tortillas"
-    ],
-    "instructions": [
-        "Drain your chickpeas and rinse them under cold running water. Transfer the chickpeas to a medium-sized bowl and add the lemon juice.",
-        "With a fork, the back of a spoon, or a potato masher, begin mashing the chickpeas. Mash them to your desired texture.",
-        "Stir in the tahini and then the chopped parsley. Set aside.",
-        "To assemble your wraps place approximately 1/3 cup of the chickpea mixture on your tortilla and spread it carefully to cover the surface evenly.",
-        "On one end lay out several cucumber slices, and top with strips of white onion. Top with approximately 1/3 cup of spinach leaves.",
-        "Roll your wrap and cut each wrap in half to serve."
-    ]
+        "title": "Chickpea Wraps",
+        "description": "Quick and easy chickpea wraps full of protein and flavor.",
+        "link": "recipes/chickpea-wraps.html",
+        "image": "assets/img/recipes/chickpea-wraps.jpeg",
+        "tags": ["vegan", "lunch", "quick", "nut-free"],
+        "totalTime": "20 mins",
+        "servings": "6 wraps",
+        "date": "2025-10-10",
+        "equipment": [
+        "Medium-sized bowl",
+        "Knife and cutting board"
+        ],
+        "ingredients": [
+            "19 ounces canned chickpeas",
+            "1/3 cup lemon juice, freshly squeezed",
+            "1 tablespoon tahini",
+            "1/3 cup chopped parsley",
+            "2 cups baby spinach",
+            "1 white onion, sliced into slivers",
+            "1 cucumber, sliced into rounds",
+            "6 flour tortillas"
+        ],
+        "instructions": [
+            "Drain your chickpeas and rinse them under cold running water. Transfer the chickpeas to a medium-sized bowl and add the lemon juice.",
+            "With a fork, the back of a spoon, or a potato masher, begin mashing the chickpeas. Mash them to your desired texture.",
+            "Stir in the tahini and then the chopped parsley. Set aside.",
+            "To assemble your wraps place approximately 1/3 cup of the chickpea mixture on your tortilla and spread it carefully to cover the surface evenly.",
+            "On one end lay out several cucumber slices, and top with strips of white onion. Top with approximately 1/3 cup of spinach leaves.",
+            "Roll your wrap and cut each wrap in half to serve."
+        ],
+        "credit": "Want more details, pictures, similar recipes, and possibly reviews and comments? Support the original inspiration! Adapted from <a href='https://miakouppa.com/chickpea-wraps/'>Mia Kouppa's chickpea wraps.</a>"
+    },
+    {
+        "title": "Spanish Rice",
+        "description": "This Spanish rice recipe is easy to make with white rice, chicken broth, and tomato picante sauce for the perfect accompaniment to Mexican dishes. This is a great base, but feel free to add more onion, chopped chili or chili powder, cumin, garlic, or oregano.",
+        "link": "recipes/spanish-rice.html",
+        "image": "assets/img/recipes/spanish-rice.jpg",
+        "tags": ["vegan", "side", "gluten-free", "nut-free"],
+        "totalTime": "30 mins",
+        "servings": "5",
+        "date": "2025-08-29",
+        "equipment": [
+            "Large skillet with lid"
+        ],
+        "ingredients": [
+            "2 tablespoons oil (I use a coconut-avocado oil instead of olive)",
+            "2 tablespoons chopped onion",
+            "1.5 cups uncooked white rice",
+            "2 cups chicken broth",
+            "1 cup picante sauce"
+        ],
+        "instructions": [
+            "Heat oil in a large, heavy skillet over medium heat. Add onion; cook and stir until tender, about 5 minutes.",
+            "Add rice; cook and stir until rice begins to turn golden brown.",
+            "Stir in chicken broth and picante sauce.",
+            "Reduce heat, cover, and simmer until liquid has been absorbed, about 15 to 20 minutes."
+        ],
+        "credit": "Want more details, pictures, similar recipes, and possibly reviews and comments? Support the original inspiration! Adapted from <a href='https://www.allrecipes.com/recipe/33385/best-spanish-rice/'>Angela Sims' spanish rice.</a>"
+    },
+    {
+        "title": "Crab Cakes",
+        "description": "These easy Crab Cakes are made with canned crab, mayo, breadcrumbs, Dijon, and Old Bay for a budget-friendly take on a classic favorite.",
+        "link": "recipes/crab-cakes.html",
+        "image": "assets/img/recipes/crab-cakes.jpg",
+        "tags": ["seafood", "side", "nut-free"],
+        "totalTime": "20 mins",
+        "servings": "4",
+        "date": "2025-08-29",
+        "equipment": [
+            "Mixing bowl",
+            "Medium-sized pan"
+        ],
+        "ingredients": [
+            "2 6 oz. canned crab, drained",
+            "1/4 cup yellow onion, small dice (43g)",
+            "1/4 cup celery, small dice (43g)",
+            "2 cloves garlic, minced (1 Tbsp)",
+            "1/4 cup vegan mayonnaise",
+            "2 tsp lemon juice",
+            "2 tsp soy sauce",
+            "2 tsp Dijon mustard",
+            "1 tsp Old Bay seasoning",
+            "1/2 cup plain breadcrumbs",
+            "2 Tbsp vegetable oil"
+        ],
+        "instructions": [
+            "In a mixing bowl, add the drained crab, diced onion, diced celery, minced garlic, mayonnaise, lemon juice, soy sauce, Dijon mustard, and Old Bay seasoning. Fold to combine well.",
+            "Add the breadcrumbs and gently fold to combine.",
+            "Place 1/4 of the mixture into your hands to form a ball. Then gently flatten it into a patty shape, pressing firmly so it holds together. Place them aside and continue until you form 4 patties. Be sure to really pack the crab cakes together. If they're falling apart in your hands, they'll fall apart in the pan.",
+            "Heat a medium sized sauté pan over medium heat and add 2 tablespoons of oil.",
+            "Once the oil is hot, place the crab cakes in the pan one at a time. Make sure the oil is nice and hot before adding the patties, or they'll end up sticking badly. Also, don't disturb them or flip them for about 4 minutes; it might cause them to fall apart. Be patient! Fry them undisturbed for 4-5 minutes on each side, or until golden brown. Transfer them to a paper towel-lined plate to absorb excess oil."
+        ],
+        "credit": "Want more details, pictures, similar recipes, and possibly reviews and comments? Support the original inspiration! Adapted from <a href='https://www.budgetbytes.com/crab-cakes'>Budget Byte's crab cakes.</a>"
+    },
+    {
+        "title": "BBQ Beans and Greens",
+        "description": "This easy BBQ Beans and Greens recipe is smoky, tangy, and packed with flavor. A budget-friendly one-pot meal perfect for busy weeknights or meal prep.",
+        "link": "recipes/bbq-beans-and-greens.html",
+        "image": "assets/img/recipes/bbq-beans-and-greens.jpg",
+        "tags": ["vegan", "dinner", "nut-free", "gluten-free"],
+        "totalTime": "35 mins",
+        "servings": "6",
+        "date": "2025-08-29",
+        "equipment": [
+            "Large skillet with lid"
+        ],
+        "ingredients": [
+            "3 cups cooked rice",
+            "1 Tbsp oil (I use a coconut-avocado oil instead of olive)",
+            "1/2 large onion, diced (1 cup)",
+            "1/2 tsp black pepper",
+            "1/2 tsp salt",
+            "2 10 oz mild diced tomatoes with green chilies, with juices",
+            "2 15.5 oz pinto beans, drained and rinsed",
+            "1 cup frozen corn",
+            "2 cups Southern greens mix (collard/mustard/turnip, chopped)",
+            "1/4 cup BBQ sauce",
+            "1 cup vegetable broth"
+        ],
+        "instructions": [
+            "Gather your ingredients. (1 cup of dry rice yields 3 cups cooked, so you can get that started while you're preparing your beans and greens!)",
+            "In a large sauté pan, add olive oil, diced onion, pepper, and salt. Cook over medium high heat until soft and glossy, about 5 minutes.",
+            "Then, add canned tomatoes (with juice), strained and rinsed pinto beans, and frozen corn. Stir to combine and cook for another 5 minutes.",
+            "Then, add greens, BBQ sauce, and vegetable broth. Stir and let this simmer on medium-low heat for 20 minutes, covered. The greens will be tender and wilted once done. Taste and adjust seasoning if needed!",
+            "Serve over cooked rice."
+        ],
+        "credit": "Want more details, pictures, similar recipes, and possibly reviews and comments? Support the original inspiration! Adapted from <a href='https://www.budgetbytes.com/bbq-beans-and-greens'>Budget Byte's BBQ Beans and Greens.</a>"
+    },
+    {
+        "title": "Apple Oatmeal Muffins",
+        "description": "Quick and easy apple oatmeal muffins sweetened with dates and maple syrup.",
+        "link": "recipes/apple-oatmeal-muffins.html",
+        "image": "assets/img/recipes/apple-oatmeal-muffins.jpg",
+        "tags": ["vegan", "dessert", "breakfast", "snack", "nut-free", "gluten-free"],
+        "totalTime": "35 mins",
+        "servings": "12 muffins",
+        "date": "2025-08-29",
+        "equipment": [
+            "12 cup muffin pan",
+            "12 muffin liners, optional",
+            "Blender or food processor"
+        ],
+        "ingredients": [
+            "2 cups large flake oats",
+            "2 apples, peeled, cored and grated",
+            "8 Medjool dates, pitted",
+            "1/3 cup oil (I use a coconut-avocado oil instead of olive)",
+            "1/4 cup maple syrup",
+            "2 tbsp ground flaxseed",
+            "5 tbsp water",
+            "1 tsp baking soda",
+            "1 tsp ground cinnamon",
+            "1/2 tsp salt",
+            "1/2 tsp vanilla extract"
+        ],
+        "instructions": [
+            "Preheat your oven to 350 °F.",
+            "Line your muffin tray with liners and set aside.",
+            "Combine all ingredients in a blender or food processor. Blend until combined and the batter is smooth. Be sure that the dates have been well blended.",
+            "Divide evenly among the 12 muffin cups. Bake in the middle rack of your oven for 15 - 17 minutes.",
+            "Allow to cool for 10 minutes before removing from the baking tray. Enjoy!"
+        ],
+        "credit": "Want more details, pictures, similar recipes, and possibly reviews and comments? Support the original inspiration! Adapted from <a href='https://miakouppa.com/easy-vegan-apple-oatmeal-muffins'>Mia Kouppa's easy vegan apple oatmeal muffins.</a>"
+    },
+    {
+        "title": "Greek Potato Salad With Herbs",
+        "description": "A fresh Greek potato salad flavoured with fresh herbs like parsley and dill, some green onions and a lemon vinaigrette that is made simply with oil, white wine vinegar, fresh lemon juice and a touch of Dijon mustard.",
+        "link": "recipes/potato-salad-with-herbs.html",
+        "image": "assets/img/recipes/potato-salad-with-herbs.jpg",
+        "tags": ["vegan", "salad", "side", "nut-free", "gluten-free"],
+        "totalTime": "30 mins",
+        "servings": "4",
+        "date": "2025-08-29",
+        "equipment": [
+            "Large sauce pot",
+            "Colander",
+            "Cutting board"
+        ],
+        "ingredients": [
+            "5-6 medium size potatoes, about 2 lbs",
+            "2 tsp salt, divided",
+            "3 green onions chopped, white and green separated",
+            "1/4 cup chopped fresh parsley",
+            "1/4 cup chopped fresh dill",
+            "1/4 tsp pepper",
+            "1/4 cup oil (I use a coconut-avocado oil instead of olive)",
+            "2 tbsp fresh lemon juice, or juice of half a lemon",
+            "1 tbsp white wine vinegar",
+            "1 tsp mustard, Dijon or regular yellow mustard",
+            "1 tsp dry oregano",
+            "1/2 tsp grated lemon zest"
+        ],
+        "instructions": [
+            "Peel and cube your potatoes into 1 inch pieces. Place in a large pot and add enough water to cover the potatoes by about 3 inches. Add 1 teaspoon of salt to the water and bring to a boil over high heat.. Lower the heat and cook, uncovered over medium heat for approximately 8-10 minutes or until the potatoes are fork tender.",
+            "While your potatoes are cooking prepare your dressing by combining all ingredients into a covered jar and shake until well combined. Alternatively you can place all ingredients in a bowl and whisk until emulsified. Set aside.",
+            "Drain the potatoes and immediately place them back into your hot pot. Turn the heat on to the lowest setting possible and allow the heat to dry out your potatoes. This can take anywhere from 3 - 5 minutes. Check your potatoes frequently to make sure they don't burn and shake your pot gently during this time. Take care not to burn your potatoes.",
+            "Transfer your potatoes into a large bowl and immediately add the green onion, the fresh herbs and the remaining 1 teaspoon salt and pepper. Pour the dressing over the ingredients and toss gently.",
+            "Serve immediately/room temperature or cold."
+        ],
+        "credit": "Want more details, pictures, similar recipes, and possibly reviews and comments? Support the original inspiration! Adapted from <a href='https://miakouppa.com/recipe-greek-potato-salad-with-herbs-2'>Mia Kouppa's Greek Potato salad with herbs.</a>"
     }
 ]
