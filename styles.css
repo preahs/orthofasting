@@ -205,6 +205,7 @@ footer {
     gap: 1.5rem;
     margin: 2rem auto;
     max-width: 1100px;
+    align-items: stretch;   /* ensures all items stretch to the tallest in the row */
 }
 
 .recipe-card {
@@ -214,6 +215,9 @@ footer {
     padding: 1.5rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;       /* stack elements vertically */
+    height: 100%;                 /* fill the grid cell height */
 }
 
 .recipe-card:hover {
@@ -227,20 +231,24 @@ footer {
 }
 
 .recipe-card p {
-    margin-bottom: 1rem;
     color: #555;
+    margin-bottom: 1rem;
+    flex-grow: 1;                /* fill available space to push link down */
 }
 
 .recipe-card a {
     color: #388e3c;
     font-weight: 500;
     text-decoration: none;
+    margin-top: auto;            /* ensures link stays at bottom */
 }
 
 .recipe-card img {
     max-width: 100%;
     border-radius: 8px;
     margin-bottom: 1rem;
+    object-fit: cover;
+    height: 200px;               /* fix image height for uniformity */
 }
 
 .recipe-card .recipe-tags {
